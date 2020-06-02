@@ -319,6 +319,8 @@ p span:hover{color: #408582; font-weight: 500; cursor: context-menu}
     .education-2:before{left: -8.5%;}
     .col-6{font-size: 0.85em}
     .text{font-size: 25px}
+    #filters li{width: 50%}
+    #filters {margin-bottom: 20px}
 }
 
 @media only print {
