@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    min-height: 100%;
+    background-color: #f5fbfa;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+a, a:hover {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a:link{
+    color: #408582;
+}
+a:visited{
+    color: #408582;
+}
+.fa-arrow-left:before{
+    margin-left: 10px;
+}
+.fa-arrow-left:after{
+    margin-left: 10px;
+}
+header {
+    padding: 50px 30px 120px 30px;
+    background-color: #408582;
+}
+
+.wrapper {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.top-box {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    margin-top: -80px;
+    -webkit-box-shadow: 0 0 10px 0 #b4b4b4;
+    -moz-box-shadow: 0 0 10px 0 #b4b4b4;
+    box-shadow: 0 0 10px 0 #b4b4b4;
+    margin-bottom: 20px;
+}
+
+.cv~span{
+    float: right;
+    margin-top: 12px;
+    display: none;
+}
+
+.cv:hover ~ span{
+    display: inline-block;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+.white-box {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    -webkit-box-shadow: 0 0 10px 0 #e7e7e7;
+    -moz-box-shadow: 0 0 10px 0 #e7e7e7;
+    box-shadow: 0 0 10px 0 #e7e7e7;
+    padding: 30px;
+    margin-bottom: 35px;
+}
+
+/*.white-box a {color: #2e3bff}*/
+.fl {float: left}
+.fr {float: right}
+.white-color {color: #fff}
+ul {list-style: none}
+ul li {margin-bottom: 5px}
+.bio-box {padding: 30px}
+.social-links {margin-top: 15px}
+.social-links a i {color: #fff}
+.social-links a:hover {background-color: #4ba4a1}
+.block-title {color: #408582}
+h2 {margin-bottom: 15px}
+p {margin-bottom: 15px;}
+p span{transition: 3s ease-in-out;}
+p span:hover{color: #408582; font-weight: 500; cursor: context-menu}
+#filters li button:focus {outline: none}
+.item img {width: 100%}
+.blue {background: blue}
+.isotope-item {z-index: 2}
+.icon-bg {background: url("images/sprite.png") no-repeat}
+.guru {background-position: 11px 13px}
+.upwork {background-position: -64px 13px}
+.peopleperhour {background-position: 11px -23px}
+.freelancer {background-position: 11px -59px}
+.education {position: relative}
+.hubstaff {background-position: -64px -23px}
+.education-2 {margin: 35px 0 0 0}
+.portfolio {min-height: 400px}
+
+.image-box img {
+    max-width: 325px;
+    vertical-align: top;
+}
+
+.social-links a {
+    display: table;
+    background-color: #408582;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+#filters {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#filters li {
+    display: inline-block;
+    width: 20%;
+}
+
+#filters li button {
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item {
+    width: 25%;
+    padding: 2px;
+    height: auto;
+    float: left;
+    /*margin: 2px;*/
+}
+
+.item a img {
+    -webkit-box-shadow: 0 0 5px 0 #e7e7e7;
+    -moz-box-shadow: 0 0 5px 0 #e7e7e7;
+    box-shadow: 0 0 5px 0 #e7e7e7;
+}
+.selected {
+    background: #4ba4a1;
+    color: white;
+}
+
+/**** Isotope Filtering ****/
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.col-6 {
+    width: 45%;
+    display: inline-block;
+}
+
+.education-1:after {
+    content: " ";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    background: #c4b6b6;
+    left: 100%;
+    top: 50%;
+}
+.education-1:before {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #408582;
+    top: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    right: -10%;
+    margin-top: -5px;
+    z-index: 10;
+    margin-right: -10px;
+}
+
+.education-2:after {
+    content: " ";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    background: #c4b6b6;
+    right: 100%;
+    top: 50%;
+}
+
+.education-2:before {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #408582;
+    top: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    left: -10%;
+    margin-top: -5px;
+    z-index: 10;
+    margin-left: -10px;
+}
+
+.education-info {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.education-info:after {
+    content: " ";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #c4b6b6;
+    right: 50%;
+    top: 0;
+}
+
+.bio-box b {
+    display: inline-block;
+    min-width: 80px;
+}
+
+.bio-box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 28px;
+    color: #000000;
+}
+.dud {
+    font-weight: 200;
+    color: #757575;
+}
+
+.to-print{
+    width: 100%;
+    height: 100px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .education-2:before {margin-left: -9px}
+    .education-1:before {margin-right: -9px}
+}
+
+@media only screen and (max-width: 800px) {
+    .image-box {width: 100%}
+    .image-box img {
+        display: table;
+        margin: 0 auto;
+        max-width: 345px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .education-1:before{right: -8%;}
+    .education-2:before{left: -8.5%;}
+    .col-6{font-size: 0.85em}
+    .text{font-size: 25px}
+}
+
+@media only print {
+    .education-info{
+        margin-bottom: 200px;
+    }
+}
