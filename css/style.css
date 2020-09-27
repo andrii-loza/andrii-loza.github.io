@@ -277,7 +277,7 @@ p span:hover{color: #408582; font-weight: 500; cursor: context-menu}
 
 .bio-box b {
     display: inline-block;
-    min-width: 80px;
+    min-width: 90px;
 }
 
 .bio-box a {
