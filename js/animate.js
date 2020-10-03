@@ -93,8 +93,8 @@ let TextScramble = function () {
 // Example
 // ——————————————————————————————————————————————————
 
-let phrases = ['JavaScript,', 'HTML 5 CSS 3 SCSS', 'AWS & GoogleCloud', 'NodeJS TypeScript',
-    'Angular 7', "I'm Andrii Loza", 'end'];
+let phrases = ['JavaScript,', 'Docker', 'AWS & GoogleCloud', 'NodeJS TypeScript',
+    'Angular 7', "I'm Andrii Loza", 'end']; 
 // 'D3 Redux OOP GIT', 'Socket IO'
 
 let el = document.querySelectorAll('.text');
